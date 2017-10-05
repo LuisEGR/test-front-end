@@ -18,4 +18,20 @@ angular.module("VendePropiedades", [])
     })
   }
 
+/*
+Caracteres unicos
+*/
+  hasUniqueCharacters = function(s){
+      var r = {}, i, x;
+      for (i=0; i<s.length; i++) {
+        x = s[i];
+        if (r[x])
+          return false;
+        r[x] = true;
+      }
+      return true;
+    }
+  console.log(hasUniqueCharacters("hola"));//true
+  console.log(hasUniqueCharacters("holaa"));//false
+
 }]);
