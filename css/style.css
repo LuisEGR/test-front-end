@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("../fonts/HelveticaNeueBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueMedium";
+  src: url("../fonts/HelveticaNeueMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AvenirLTStd-Roman";
+  src: url("../fonts/AvenirLTStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeutraTextTF-Bold";
+  src: url("../fonts/NeutraTextTF-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeutraTextTF-BookSC";
+  src: url("../fonts/NeutraTextTF-BookSC.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeutraTextTF-Book-regular";
+  src: url("../fonts/NeutraTextTF-BookSC.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-size: 20pt;
+  color: #484848;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.round-orange {
+  display: inline-block;
+  background: #e66700;
+  color: white;
+  padding: 15px 15px;
+  height: 48.5px;
+  text-align: center;
+  width: 142.5px;
+  border-radius: 58px;
+  margin-bottom: -48.5px;
+}
+
+header {
+  width: 100%;
+  height: 86px;
+}
+
+header nav {
+  font-size: 15px;
+  font-family: "HelveticaNeue";
+  position: relative;
+  top: 17px;
+  float: right;
+  margin-right: 13.5px;
+}
+
+header nav a {
+  margin-right: 15px;
+}
+
+section {
+  width: 100%;
+}
+
+section.big-image {
+  height: 358px;
+  background-image: url(../img/IMG_20170220_121229490.jpg);
+  background-size: 100% auto;
+  background-position: bottom;
+  padding-top: 60px;
+}
+
+.t-w {
+  color: white;
+}
+
+.t-c {
+  text-align: center;
+}
+
+.t-r {
+  text-align: right;
+}
+
+.t-l {
+  text-align: left;
+}
+
+.v-pad {
+  padding: 70px 0;
+}
+
+.titulo {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo.title-1 {
+  font-family: "HelveticaNeueMedium";
+  font-size: 40pt;
+}
+
+.titulo.title-2 {
+  font-family: "HelveticaNeue";
+  font-size: 30pt;
+}
+
+.titulo.title-3 {
+  font-family: "HelveticaNeueBold";
+  font-size: 20pt;
+}
+
+.titulo.title-4 {
+  font-family: "HelveticaNeueBold";
+  font-size: 13pt;
+  color: black !important;
+}
+
+.f-h-b {
+  font-family: "HelveticaNeue";
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.f-h-m {
+  font-family: "HelveticaNeueMedium";
+  font-size: 14pt;
+}
+
+.f-h-l {
+  font-family: "HelveticaNeue";
+  font-weight: 300;
+  font-size: 14pt;
+}
+
+.top-border {
+  border-top: 2px solid #e5e5e5;
+}
+
+.c-title {
+  color: #e66700;
+}
+
+.c-button {
+  color: #f7971c;
+}
+
+.c-gray {
+  color: #aaaaaa;
+}
+
+.c-gray a {
+  color: #aaaaaa !important;
+}
+
+.dividers-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+[class*='col-'] {
+  padding-right: 0px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.btn {
+  font-family: "HelveticaNeue";
+  display: inline-block;
+  width: 142.5px;
+  height: 48.75px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14pt;
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 13px;
+}
+
+.btn.btn-1 {
+  background-color: #e66700;
+}
+
+.btn.btn-2 {
+  background-color: #f7971c;
+}
+
+.versus {
+  position: absolute;
+  background: #f7971c;
+  color: white;
+  font-family: "HelveticaNeue";
+  font-size: 14pt;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

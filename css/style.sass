@@ -1,0 +1,163 @@
+@import "colors"
+@import "fonts"
+*
+  box-sizing: border-box
+
+html
+  margin: 0
+  padding: 0
+  width: 100%
+  height: auto
+
+body
+  margin: 0
+  padding: 0
+  width: 100%
+  height: auto
+  background-color: white
+  font-size: 20pt
+  color: $color_text
+
+// .grid
+//   border: 1px solid $color_grey
+
+a
+  text-decoration: none
+  color: black
+  &.round-orange
+    display: inline-block
+    background: $color_title
+    color: white
+    padding: 15px 15px
+    height: 48.5px
+    text-align: center
+    width: 142.5px
+    border-radius: 58px
+    margin-bottom: -48.5px
+
+header
+  width: 100%
+  height: 86px
+  // border: 1px solid black
+  nav
+    font-size: 15px
+    font-family: $HelveticaNeue
+    position: relative
+    top: 17px
+    float: right
+    margin-right: 13.5px
+    a
+      margin-right: 15px
+
+section
+  width: 100%
+  // height: 300px
+  // border: 1px solid black
+  &.big-image
+    height: 358px
+    background-image: url(../img/IMG_20170220_121229490.jpg)
+    background-size: 100% auto
+    background-position: bottom
+    padding-top: 60px
+
+.t-w
+  color: white
+
+.t-c
+  text-align: center
+.t-r
+  text-align: right
+.t-l
+  text-align: left
+
+.v-pad
+  padding: 70px 0
+
+.titulo
+  display: block
+  width: 100%
+  text-align: center
+  &.title-1
+    font-family: $HelveticaNeueMedium
+    font-size: 40pt
+
+  &.title-2
+    font-family: $HelveticaNeue
+    font-size: 30pt
+
+  &.title-3
+    font-family: $HelveticaNeueBold
+    font-size: 20pt
+
+  &.title-4
+    font-family: $HelveticaNeueBold
+    font-size: 13pt
+    color: black !important
+
+.f-h-b
+  font-family:  $HelveticaNeue
+  font-weight: bold
+  font-size: 20pt
+
+.f-h-m
+  font-family: $HelveticaNeueMedium
+  font-size: 14pt
+
+.f-h-l
+    font-family: $HelveticaNeue
+    font-weight: 300
+    font-size: 14pt
+
+.top-border
+  border-top: 2px solid $color_line
+
+.c-title
+  color: $color_title
+
+.c-button
+  color: $color_button
+
+.c-gray
+  color: $color_grey
+  a
+    color: $color_grey !important
+
+.dividers-container
+  width: 80%
+  margin: 0 auto
+
+[class*='col-']
+  padding-right: 0px
+
+.p-30
+  padding: 30px
+
+.p-40
+  padding: 40px
+
+.p-20
+  padding: 20px
+
+.btn
+  font-family: $HelveticaNeue
+  display: inline-block
+  width: 142.5px
+  height: 48.75px
+  color: rgba(255,255,255,0.8)
+  font-size: 14pt
+  text-align: center
+  border-radius: 40px
+  padding-top: 13px
+  &.btn-1
+    background-color: $color_title
+  &.btn-2
+    background-color: $color_button
+
+.versus
+  position: absolute
+  background: $color_button
+  color: white
+  font-family:  $HelveticaNeue
+  font-size: 14pt
+  padding: 10px
+  border-radius: 50%

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html ng-app="VendePropiedades" ng-controller="VPController as ctrl">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/fc2881b718523100e862563889ca3746.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/141b45ec248f9e34faf09f77101b8ada.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/cbbdd77fb6edb6b47b0c97978c82f930.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/ecef590785adaeb2d93a04b9275f3d6e.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/b7779823e5c1a7e71ff8b45806fa2da8.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/3776890dfbea931a92f6f54b25a043bf.css" rel="stylesheet">
+    <link href="https://s3.amazonaws.com/assets.mockflow.com/app/styleguide/company/Ccc483f21e64e41199f504e4d14b4dec5/projects/c9dc567be10837d180a872c0b845a66e/fonts/e33ac2e325baf1e913bef21deccf26a6.css" rel="stylesheet">
+
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/simplegrid.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <script type="text/javascript" src="./node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./js/app.angular.js"></script>
+
+  </head>
+  <body>
+  <header>
+    <nav>
+      <a href="#">Vendedores</a>
+      <a href="#">Compradores</a>
+      <a href="#">Regístrate</a>
+      <a href="#">Iniciar sesión</a>
+      <a  href="#" ng-click="showContactos()" class="round-orange">Contacto</a>
+    </nav>
+  </header>
+  <div class="grid">
+    <section class="big-image">
+      <span class="titulo title-1 t-w">Vende o compra propiedades</span>
+      <span class="titulo title-2  t-w">¡Sin comisión ni corredores!</span>
+    </section>
+    <section class="how-it-works v-pad">
+      <h3 class="titulo title-3">¿Cómo funciona?</h3>
+      <br>
+      <br>
+      <br>
+      <div class="dividers-container t-c">
+        <div class="col-1-1">
+          <div class="col-4-12">
+
+          </div>
+          <div class="col-8-12">
+            <span class="versus">VS.</span>
+            <div class="col-1-2">
+              <img src="./img/cierralo-logo-02.png" alt="Edificio" style="width: 106.5px">
+            </div>
+            <div class="col-1-2">
+              <img src="./img/seniora_manos.png" alt="Señora" style="width: 106.5px">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-1" style="margin: 10px 0 20px 0">
+          <div class="col-4-12">
+
+          </div>
+          <div class="col-8-12">
+            <div class="col-1-2 f-h-l c-title">
+              Costo fijo
+            </div>
+            <div class="col-1-2 f-h-l c-gray">
+              Comisión del 3% al 5%
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-1">
+          <div class="col-4-12 f-h-b p-40">
+            <p>Conoce</p>
+          </div>
+          <div class="col-8-12 top-border ">
+            <div class="col-1-2 f-h-m c-title  p-20">
+              <p>Conoce y controla todos los pasos del proceso de compra o venta de tu propiedad</p>
+            </div>
+            <div class="col-1-2 f-h-m c-gray" style="padding: 20px 30px 30px 30px ">
+              <p>Carecen de experiencia profesional y estructura de un proceso de compra-venta</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-1">
+          <div class="col-4-12 f-h-b p-40">
+            <p>Determina</p>
+          </div>
+          <div class="col-8-12 top-border">
+            <div class="col-1-2 f-h-m c-title  p-20">
+              <p>Determina el precio de tu propiedad con ayuda de nuestros análisis de mercado cuantitativos</p>
+            </div>
+            <div class="col-1-2 f-h-m c-gray" style="padding: 20px 30px 30px 30px ">
+              <p>Su determinación de precio no cuenta con sustento y existe un conflicto te interés por determinar un precio bajo con el fin de vender tu propiedad</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-1-1" style="margin-top: 100px">
+          <h3 class="titulo title-3">¡Regístrate!</h3>
+        </div>
+        <div class="col-1-1">
+          <br>
+          <a href="#" class="btn btn-1">Comprar</a>
+          <a href="#" class="btn btn-2">Vender</a>
+        </div>
+
+        <div style="clear:both"></div>
+      </div> <!-- end text-center -->
+    </section>
+
+
+  <footer>
+    <div class="info col-1-1 top-border f-h-m c-gray">
+      <div class="col-1-4 p-40">
+        <img src="./img/cierralo-logo-02.png" alt="Edificio" style="width: 117.5px">
+      </div>
+      <div class="col-1-4 p-40 ">
+        <p>
+          <a href="#">Contacto</a><br>
+          <a href="#">Preguntas frecuentes</a><br>
+          <a href="#">Acerca de nosotros</a><br>
+        </p>
+      </div>
+      <div class="col-1-4 p-40">
+        <p>
+          <a href="#">info@cierralo.com</a><br>
+          <a href="#">(55) 4567 4323</a><br>
+          <a href="#"><img src="./img/group-8.png" alt=""></a>
+          <a href="#"><img src="./img/page-1.png" alt=""></a>
+        </p>
+      </div>
+      <div class="col-1-4 p-40 t-c">
+        <a href="#" class="titulo title-4">Conviértete en vendedor</a><br>
+        <a href="#" class="btn btn-1" style="color:white !important">Regístrate</a>
+      </div>
+    </div>
+
+    <div class="col-1-1 p-40 top-border f-h-m c-gray">
+      <div class="col-1-2 t-r p-20" >
+        <a href="#">Términos y condiciones</a>
+      </div>
+
+      <div class="col-1-2 t-l p-20">
+        <a href="#">Aviso de privacidad</a>
+      </div>
+    </div>
+  </footer>
+</div><!-- emd grid -->
+  </body>
+</html>
