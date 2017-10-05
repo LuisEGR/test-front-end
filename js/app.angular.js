@@ -21,7 +21,7 @@ angular.module("VendePropiedades", [])
 /*
 Caracteres unicos
 */
-  hasUniqueCharacters = function(s){
+  var hasUniqueCharacters = function(s){
       var r = {}, i, x;
       for (i=0; i<s.length; i++) {
         x = s[i];
@@ -30,8 +30,31 @@ Caracteres unicos
         r[x] = true;
       }
       return true;
+  }
+
+  function primeFactors(n){
+    var i = 2;
+    var res = [];
+    var p =0;
+    while(n > 1){
+      if(n % i === 0){
+        res.push(i);
+        n /= i;
+        i = 2;
+      } else {
+        i++;
+      }
     }
-  console.log(hasUniqueCharacters("hola"));//true
-  console.log(hasUniqueCharacters("holaa"));//false
+    return res;
+  }
+
+
+  console.log("Factores Primos:");
+  console.log(20, primeFactors(20));
+  console.log(330, primeFactors(330));
+
+  console.log("Caractéres únicos:");
+  console.log("hola", hasUniqueCharacters("hola"));//true
+  console.log("holaa", hasUniqueCharacters("holaa"));//false
 
 }]);
