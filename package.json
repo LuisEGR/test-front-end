@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/LuisEGR/test-front-end#readme",
   "dependencies": {
-    "angular": "^1.6.6"
+    "angular": "^1.8.0"
   }
 }
